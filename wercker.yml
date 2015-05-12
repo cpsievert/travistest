@@ -4,6 +4,6 @@ build:
     - jimhester/r-dependencies
     - jimhester/r-check
     - script:
-      name: install after R CMD check
-      code:|
-       Rscript -e "devtools::install_github('cpsievert/travistest')"
+        name: install after R CMD check
+        code:|
+         Rscript -e "devtools::install_github('cpsievert/travistest')"
