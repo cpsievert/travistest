@@ -5,5 +5,5 @@ build:
     - jimhester/r-check
     - script:
         name: install after R CMD check
-        code:|
+        code: |
          Rscript -e "devtools::install_github('cpsievert/travistest')"
