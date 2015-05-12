@@ -5,6 +5,7 @@ sudo: required
 
 after_success:
   - Rscript -e "devtools::install_github('cpsievert/travistest')"
+  - Rscript install.R
 
 notifications:
   email:
